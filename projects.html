@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="https://imgs.search.brave.com/AI0z-3vs5aXOViha6NndjlphjjV3Kivxh6G3gSyVn6w/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4t/aWNvbnMtcG5nLmZy/ZWVwaWsuY29tLzI1/Ni8xMjE0OC8xMjE0/ODY3OC5wbmc_c2Vt/dD1haXNfd2hpdGVf/bGFiZWw">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-content">
+                <a href="#" class="logo">Personal Portfolio Website</a>
+                <div class="nav-links">
+                    <a href="home.html"target="_blank">Home </a>
+                    <a href="about.html"target="_blank">About </a>
+                    <a href="skills.html" target="_blank">Skills</a>
+                    <a href="projects.html"target="_blank">Projects</a>
+                    <a href="achievements.html"target="_blank">Achievements</a>
+                     <a href="Feedbackform.html"target="_blank">Feedback</a>
+                    <a href="contact.html"target="_blank">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+     <section id="projects">
+            <h2 class="section-title">Academic Projects</h2>
+            <div class="projects-grid">
+                <!-- Project Card 1: C/C++ Console App -->
+                <div class="card project-card">
+                    <h3 class="project-title">Simple Calculator (C++)</h3>
+                    <p class="achievement-desc">
+                        A console-based application built using C++ to perform basic arithmetic operations (addition, subtraction, multiplication, division) and few advance operations (like Array , Sorting & Searching etc ). Focused on proper input validation and function handling.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">C++</span>
+                        <span class="tag">Console App</span>
+                        <span class="tag">Functions</span>
+                    </div>
+                </div>
+
+                <!-- Project Card 2: Basic HTML/CSS Website -->
+                <div class="card project-card">
+                    <h3 class="project-title">Basic Landing Page (Web)</h3>
+                    <p class="achievement-desc">
+                        Developed a static landing page for a mock product using HTML and plain CSS. Learned about box model, layout, and basic responsiveness. Create some basic sites as a beginner.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">HTML5</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">Static Site</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> Nikhil Khandelwal. All rights reserved. Built with simple HTML and CSS.</p>
+        </div>
+    </footer>
+
+    <!-- Simple JavaScript for current year in footer -->
+    <script>
+        // Sets the current year dynamically in the footer
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

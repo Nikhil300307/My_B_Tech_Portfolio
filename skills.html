@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>skills-grid</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="https://imgs.search.brave.com/u0G7BhavYLLO-0yGDBE2b0MTKh13HrKRlq-wjv1e_Ls/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4t/aWNvbnMtcG5nLmZy/ZWVwaWsuY29tLzI1/Ni8xMDQ4OC8xMDQ4/ODUzMi5wbmc_c2Vt/dD1haXNfd2hpdGVf/bGFiZWw">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-content">
+                <a href="#" class="logo">Personal Portfolio Website</a>
+                <div class="nav-links">
+                    <a href="home.html"target="_blank">Home </a>
+                    <a href="about.html"target="_blank">About </a>
+                    <a href="skills.html" target="_blank">Skills</a>
+                    <a href="projects.html"target="_blank">Projects</a>
+                    <a href="achievements.html"target="_blank">Achievements</a>
+                    <a href="contact.html"target="_blank">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main class="container">
+
+        
+        <section id="skills">
+            <h2 class="section-title">Core Skills</h2>
+            <div class="skills-grid">
+               
+                <div class="card">
+                    <span class="skill-icon" role="img" aria-label="code">&#128187;</span>
+                    <h3 class="project-title">Programming</h3>
+                    <p class="achievement-desc">C / C++, Basic Data Structures (Arrays, Strings,Sorting & Searching).</p>
+                </div>
+                
+                <div class="card">
+                    <span class="skill-icon" role="img" aria-label="web">&#128421;</span>
+                    <h3 class="project-title">Web Basics</h3>
+                    <p class="achievement-desc">HTML Structure, CSS Styling (Plain CSS and concepts).</p>
+                </div>
+                <!-- Skill Card 3: Tools & OS -->
+                <div class="card">
+                    <span class="skill-icon" role="img" aria-label="tools">&#128295;</span>
+                    <h3 class="project-title">Tools & OS</h3>
+                    <p class="achievement-desc">VS Code, Git Basics, Windows/Linux command line.</p>
+                </div>
+                
+                <div class="card">
+                    <span class="skill-icon" role="img" aria-label="soft skills">&#129504;</span>
+                    <h3 class="project-title">Soft Skills</h3>
+                    <p class="achievement-desc">Problem Solving, Teamwork, Rapid Learning, a good speaker and a good coordinater.</p>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> Nikhil Khandelwal. All rights reserved. Built with simple HTML and CSS.</p>
+        </div>
+    </footer>
+
+    <!-- Simple JavaScript for current year in footer -->
+    <script>
+        // Sets the current year dynamically in the footer
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

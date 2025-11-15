@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Website Feedback</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzzBUnyDu4tihU5l5xsBF1QO9VSPQP2UGRMVSfDi7SrJ6VU-Vultmmfc6DeL_GbrPM9kY&usqp=CAU"> 
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-content">
+                <a href="#" class="logo">Personal Portfolio Website</a>
+                <div class="nav-links">
+                    <a href="home.html"target="_blank">Home </a>
+                    <a href="about.html"target="_blank">About </a>
+                    <a href="skills.html" target="_blank">Skills</a>
+                    <a href="projects.html"target="_blank">Projects</a>
+                    
+                    <a href="achievements.html"target="_blank">Achievements</a>
+                    <a href="Feedbackform.html"target="_blank">Feedback</a>
+                    <a href="contact.html"target="_blank">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section class="feedback">
+    <div class="feedback-container">
+        <h1>Feedback for My Profile Website 🌟</h1>
+        <p>Your honest feedback will help me improve this project!</p>
+        
+        <form action="#" method="POST" class="feedback-form">
+            
+            <div class="form-group">
+                <label for="name">Your Name (Optional):</label>
+                <input type="text" id="name" name="name">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Your Email (Optional):</label>
+                <input type="email" id="email" name="email">
+            </div>
+
+            <div class="form-group">
+                <label for="rating">Overall Rating:</label>
+                <select id="rating" name="rating" required>
+                    <option value="" disabled selected>Select a rating</option>
+                    <option value="5">5 - Excellent</option>
+                    <option value="4">4 - Good</option>
+                    <option value="3">3 - Average</option>
+                    <option value="2">2 - Fair</option>
+                    <option value="1">1 - Poor</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="comments">Comments / Suggestions:</label>
+                <textarea id="comments" name="comments" rows="6" required placeholder="What did you like? What could be improved?"></textarea>
+            </div>
+
+            <div class="button-group">
+                <button type="reset" class="reset-btn">Reset</button> 
+                <button type="submit" class="submit-btn">Submit Feedback</button>
+            </div>
+            
+        </form>
+    </div>
+</section>
+ 
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> Nikhil Khandelwal. All rights reserved. Built with simple HTML and CSS.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Sets the current year dynamically in the footer
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
